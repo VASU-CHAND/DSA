@@ -2,16 +2,17 @@
 using namespace std;
 int main(){
     int n=6;
-    int arr[] ={1,2,-9,-7,-4, 7};
-    
     int ms=0;
-    for(int st=0; st<n; st++){
-     int cs=0;
-     for(int end=st; end<n; end++){
-      cs += arr[end];
-      ms = max(cs,ms);
-     }
+    int arr[] ={3 , -4 , 5 , 4 , -1 ,-7 , -8};
+    for (int i=0; i<n; i++){
+         int cs =0;
+     for (int j=i; j<n; j++){
+    // cs ka initialize nhi krna gueess why
+     cs= cs +arr[j];
+      ms= max(ms,cs);
     }
+   
+}
 cout << ms;
     return 0;
 }
