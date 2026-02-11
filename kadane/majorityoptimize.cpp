@@ -12,7 +12,7 @@ int main(){
         else{
             freq=1;
         }
-        if(freq>3){
+        if(freq>2){
             cout << arr[i] << endl;
             break;
         }
