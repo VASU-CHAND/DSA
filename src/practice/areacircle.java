@@ -10,13 +10,5 @@ float area =3.14f*r*r;
 float perimeter=6.28f*r;
 System.out.println("the area of cirlce is " + (area));
 System.out.println("the perimeter of cirlce is " + (perimeter));
-
-
-
-
-
-
-
 }
-
 }
