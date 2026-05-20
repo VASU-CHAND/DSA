@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class rectangle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("enter YOUR favourite number  ");
+        System.out.println("enter the number  ");
         int n= sc.nextInt();
         for (int i = 0; i < 10; i++) {
             if(i==0||i==9){
