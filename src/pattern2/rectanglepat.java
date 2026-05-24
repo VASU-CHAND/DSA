@@ -21,6 +21,9 @@ public static void hollowrec(int rows , int cols){
 }
 public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
+    System.err.println("enter the length of rectangle");
+    int row= sc.nextInt();
+    
        hollowrec(3, 7);
 }
 }
