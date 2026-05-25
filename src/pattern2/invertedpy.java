@@ -20,7 +20,7 @@ public static void inverted(int n){
 }
 public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-    System.err.println("enter the length of Pyramid");
+    System.err.println("enter the length Of Pyramid");
     int n= sc.nextInt();
     inverted(n);
     
