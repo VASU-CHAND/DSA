@@ -2,16 +2,6 @@
 import java.util.Scanner;
 
 public class input {
-    public static int getlargest(int num[]){
-        int largest= Integer.MIN_VALUE;
-        for (int i = 0; i < num.length; i++) {
-            if(largest<num[i]){
-             largest= num[i];
-            }
-        }
-                    return largest;
-
-    }
     public static void main(String[] args) {
         int marks[]= new int[5];
         Scanner sc = new Scanner(System.in);
@@ -23,9 +13,7 @@ public class input {
             System.err.println(marks[i]);
             
         }
-        int max= getlargest(marks);
-        System.out.println(max);
-
     }
     
 }
+
