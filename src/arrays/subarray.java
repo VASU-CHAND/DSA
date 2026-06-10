@@ -3,9 +3,9 @@ public class subarray {
           for (int i = 0; i < arr.length; i++) {
                 for( int j=i+1; j<=arr.length; j++ ){
                         for(int k=i;k<j;k++ ){
-                        System.err.print(arr[k] +);
+                        System.err.print(arr[k] +" " );
                           }
-                          System.err.print(" ");
+                          System.err.println(" ");
                   }
                           System.err.println("");
 
