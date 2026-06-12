@@ -22,7 +22,7 @@ public static void main(String[] args) {
     int numbers[]={1,-2,6,-1 ,3};
       int max=sum(numbers);
       System.err.println(max);
-
+ 
 }
 }
 
