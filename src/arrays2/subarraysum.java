@@ -1,6 +1,6 @@
 public class subarraysum{
  public static int sum(int arr[]){
-        int max =0;
+        int max =Integer.MIN_VALUE;
           for (int i = 0; i < arr.length; i++) {
                 for( int j=i+1; j<=arr.length; j++ ){
                         int sum=0;
