@@ -1,4 +1,4 @@
-public class prefixarraysum{
+public class prefixarray{
 
 public static int sum(int arr[]){
     int prefix[] = new int[arr.length];
@@ -25,4 +25,7 @@ public static void main(String[] args) {
  
 }
 }
+
+ 
+    
 
